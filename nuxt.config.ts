@@ -36,6 +36,6 @@ export default defineNuxtConfig({
     }
   },
   sitemap: {
-  hostname: 'https://username.github.io/repository-name/',
+  hostname: 'https://xazada13.github.io/webcraft/',
   }
 })
