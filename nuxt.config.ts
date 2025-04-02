@@ -34,5 +34,8 @@ export default defineNuxtConfig({
     router: {
       base: "/webcraft"
     }
+  },
+  sitemap: {
+  hostname: 'https://username.github.io/repository-name/',
   }
 })
