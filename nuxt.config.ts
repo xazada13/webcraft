@@ -28,6 +28,11 @@ export default defineNuxtConfig({
     }
   },
   $production: {
-
+    app: {
+      baseURL: "/webcraft"
+    },
+    router: {
+      base: "/webcraft"
+    }
   }
 })
