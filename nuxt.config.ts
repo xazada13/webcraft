@@ -17,7 +17,7 @@ export default defineNuxtConfig({
         { property: 'og:description', content: 'Создаю современные веб-приложения на Nuxt и Node.js.' },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://xazada13.github.io/webcraft/' },
-        { property: 'og:image', content: 'https://xazada13.github.io/webcraft//preview.jpg' },
+        { property: 'og:image', content: 'https://xazada13.github.io/webcraft/preview.jpg' },
       ],
 
       // Каноническая ссылка и иконка
