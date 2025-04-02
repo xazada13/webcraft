@@ -12,7 +12,6 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Тимофей Устинов. Веб-разработка на Vue.js, Nuxt 3, Node.js и MongoDB.' },
         { name: 'keywords', content: 'портфолио, веб-разработчик, fullstack, vue, nuxt, nodejs, seo, mongodb' },
 
-        // Open Graph (для соцсетей)
         { property: 'og:title', content: 'Устинов Тимофей — Портфолио' },
         { property: 'og:description', content: 'Создаю современные веб-приложения на Nuxt и Node.js.' },
         { property: 'og:type', content: 'website' },
@@ -20,7 +19,6 @@ export default defineNuxtConfig({
         { property: 'og:image', content: 'https://xazada13.github.io/webcraft/preview.jpg' },
       ],
 
-      // Каноническая ссылка и иконка
       link: [
         { rel: 'canonical', href: 'https://xazada13.github.io/webcraft/' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
