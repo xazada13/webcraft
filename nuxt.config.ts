@@ -16,13 +16,13 @@ export default defineNuxtConfig({
         { property: 'og:title', content: 'Устинов Тимофей — Портфолио' },
         { property: 'og:description', content: 'Создаю современные веб-приложения на Nuxt и Node.js.' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'https://your-portfolio.com' },
-        { property: 'og:image', content: 'https://your-portfolio.com/preview.jpg' },
+        { property: 'og:url', content: 'https://xazada13.github.io/webcraft/' },
+        { property: 'og:image', content: 'https://xazada13.github.io/webcraft//preview.jpg' },
       ],
 
       // Каноническая ссылка и иконка
       link: [
-        { rel: 'canonical', href: 'https://your-portfolio.com' },
+        { rel: 'canonical', href: 'https://xazada13.github.io/webcraft/' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       ],
     }
