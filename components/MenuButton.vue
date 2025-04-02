@@ -1,0 +1,11 @@
+<template>
+    <div class="button border-2 border-sky-100/50 bg-[#fbf9fc] w-min hover:bg-blue-200 transition-all duration-200 rounded-[10px] inline-block sticky top-[20px]">
+        <svg class="text-sky-800 m-[10px] hover:text-white transition-all duration-200" xmlns="http://www.w3.org/2000/svg" width="45" height="45"
+            viewBox="0 0 24 24"><!-- Icon from Meteor Icons by zkreations - https://github.com/zkreations/icons/blob/main/LICENSE -->
+            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <circle cx="12" cy="5" r="3" />
+                <path d="M12 22V8m-9 5v4a5 5 0 0 0 5 5h8a5 5 0 0 0 5-5v-4M1 15l2-2l2 2m14 0l2-2l2 2" />
+            </g>
+        </svg>
+    </div>
+</template>
