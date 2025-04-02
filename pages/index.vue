@@ -9,19 +9,30 @@ useHead({
 })
 </script>
 <template>
+    <header class="invisible">
+        <p>Hello github users</p>
+    </header>
     <section class="">
-        <p class="description mx-auto w-max my-[50px]">САЙТ ПОРТФОЛИО ВЕБ-РАЗРАБОТЧИКА</p>
-        <div class="name w-min mx-auto my-[100px]">
-            <h1 class="text-7xl w-max font-[800] text-sky-800">Устинов Тимофей</h1>
+        <p class="description mx-auto w-max my-[20px] text-[12px] lg:text-[15px]">САЙТ ПОРТФОЛИО ВЕБ-РАЗРАБОТЧИКА</p>
+        <div class="name w-min mx-auto my-[30px] md:my-[100px] lg:my-[120px]">
+            <h1 class="text-4xl md:text-5xl lg:text-7xl w-max font-[800] text-sky-800">Устинов Тимофей</h1>
         </div>
     </section>
-
+    <footer class="invisible">
+        <p>Hello github users</p>
+    </footer>
 </template>
 <style>
 body {
     background-size: 200px;
     background-color: #fbf9fc;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%237092ed' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%237092ed' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E"); 
+}
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
     font-family: "Montserrat", sans-serif;
 }
 
