@@ -1,0 +1,1 @@
+import{_ as t}from"./DM7_SG7p.js";import{_ as n,c as a,a as s,b as r,w as _,F as c,o as l,d as m}from"./DBUWoFxf.js";const d={};function f(u,e){const o=t;return l(),a(c,null,[e[1]||(e[1]=s("h1",null,"Hello! This page was not found",-1)),r(o,{to:"/"},{default:_(()=>e[0]||(e[0]=[m("Go back to home")])),_:1})],64)}const x=n(d,[["render",f]]);export{x as default};
